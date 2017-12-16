@@ -1,0 +1,69 @@
+<?php
+ include_once('db_con.php');
+ 
+ $json = file_get_contents("php://input");
+ $inputdecode = json_decode($json);
+ $input = $inputdecode->input;
+ $error=array();
+ $return = array();
+ if(isset($inputdecode->input) && (isset($input->user_id))){
+    $sql = "select * from user where id='".$input->user_id."' and activated = '1' "; 
+	$res =  mysqli_query($con,$sql);
+	$result1 = mysqli_fetch_assoc($res);
+	if( isset($result1['id']))
+	{
+		   
+     if(!isset($input->name) || ($input->name == ''))
+	 {
+		$error[] = "Name is required.";
+	 }
+	  if(!isset($input->mail) || ($input->mail == '') || (!filter_var($input->mail, FILTER_VALIDATE_EMAIL)))
+	 {
+		$error[] = "E-mail is required.";
+	 }else
+	 {
+		$res =  mysqli_query($con,"SELECT * FROM user where mail='".$input->mail."' and id != '".$input->user_id."'");
+		$row =  mysqli_fetch_row($res);
+		if(count($row) > 0)
+		{
+		  $error[] = "E-mail is already exist.";
+		}
+	 }
+	 if(!isset($input->phone) || ($input->phone == ''))
+	 {
+		$error[] = "Phone No. is required.";
+	 }
+	 
+	 if(count($error) > 0 )
+	 {
+	   $return['success']=0;
+	   $return['result'] = $error;
+	 }else
+	 {  
+  
+		 $sql1 = "UPDATE `user` SET `name_surname` = '".$input->name."' , `mail` = '".$input->mail."' , `phone` = '".$input->phone."' 
+		 where id='".$input->user_id."'"; 
+		 $res1 =  mysqli_query($con,$sql1);
+		
+		 if( isset($result1['id']))
+		 {
+		   
+			 $return['success']=1;   
+			 $return['result'] = array("Record is updated");
+			
+			 
+		 }
+      }
+	 }else
+		 {
+			 $return['success']=0;   
+			 $return['result'] = array("No records found.");
+		 }
+	}else{
+			$return['success']=0;   
+			$return['result'] = "Error in code.";
+		
+	}
+	
+ echo json_encode($return);
+?>

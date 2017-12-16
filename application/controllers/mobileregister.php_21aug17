@@ -1,0 +1,46 @@
+<?php
+class Mobileregister extends Frontend_Controller
+{
+    public function __construct ()
+
+	{
+
+		parent::__construct();
+        $this->load->helper('form');
+        $this->load->helper('html');
+		$this->load->model('mobile_register');
+	}
+    public function index()
+    {
+       
+    }
+	public function otpsend(){
+	  
+	   $this->load->library('twilio');
+	   
+	   if(isset($_POST['phone']))
+	   {
+	      $res = $this->mobile_register->check_mobile($_POST);
+		  if($res == '0')
+		  {
+		  $from = '+12569801015';
+          $to = '+91'.$_POST['phone'];
+          $var = rand(1000,9999);
+          $message = "Your OTP is for registration - ".$var;
+          $response = $this->twilio->sms($from, $to, $message);
+		  $this->mobile_register->send_otp($_POST,$var);
+		  redirect('mobileregister/otp?id='.$_POST["phone"]);
+		  }else{
+		  redirect('mobileregister/otpsend?err=1');
+		  }
+		}
+		$output = $this->parser->parse($this->data['settings_template'].'/'.'otp_send.php', $this->data, TRUE);
+        echo str_replace('assets/', base_url('templates/'.$this->data['settings_template']).'/assets/', $output);  
+	}
+   public function otp(){
+	  
+	  
+		$output = $this->parser->parse($this->data['settings_template'].'/'.'otp.php', $this->data, TRUE);
+        echo str_replace('assets/', base_url('templates/'.$this->data['settings_template']).'/assets/', $output);  
+	}
+}

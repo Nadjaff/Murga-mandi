@@ -1,0 +1,70 @@
+[19-Oct-2017 22:13:57 America/Chicago] PHP Fatal error:  Call to undefined function cache_file() in /home/murgamandi/public_html/templates/boomerang/widgets/head.php on line 11
+[19-Oct-2017 22:32:52 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/widgets/doctor.php on line 4
+[19-Oct-2017 22:40:26 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/slidebar.php on line 66
+[19-Oct-2017 22:44:13 America/Chicago] PHP Fatal error:  Call to undefined function _che() in /home/murgamandi/public_html/templates/boomerang/widgets/map_popup.php on line 4
+[19-Oct-2017 22:48:00 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home/murgamandi/public_html/templates/boomerang/widgets/top_search.php on line 11
+[19-Oct-2017 23:00:30 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/top_slogan.php on line 13
+[19-Oct-2017 23:14:29 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/right_social.php on line 10
+[19-Oct-2017 23:18:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/widgets/top_partners.php on line 13
+[19-Oct-2017 23:25:51 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/right_agents.php on line 9
+[19-Oct-2017 23:29:45 America/Chicago] PHP Fatal error:  Call to undefined function _ch() in /home/murgamandi/public_html/templates/boomerang/widgets/results_item.php on line 12
+[19-Oct-2017 23:33:24 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/bottom_stats.php on line 16
+[19-Oct-2017 23:37:11 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/top_mapsearch.php on line 20
+[19-Oct-2017 23:52:19 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/widgets/bottom_agents.php on line 19
+[19-Oct-2017 23:59:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/widgets/bottom_agents2.php on line 15
+[20-Oct-2017 00:15:01 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/right_mortgage.php on line 26
+[20-Oct-2017 00:20:03 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/widgets/top_contactmap.php on line 11
+[20-Oct-2017 00:22:35 America/Chicago] PHP Fatal error:  Call to undefined function config_db_item() in /home/murgamandi/public_html/templates/boomerang/widgets/custom_palette.php on line 1
+[20-Oct-2017 00:26:22 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/murgamandi/public_html/templates/boomerang/widgets/center_demomaps.php on line 17
+[20-Oct-2017 00:30:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/widgets/bottom_partners.php on line 16
+[20-Oct-2017 00:33:56 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/bottom_parallax.php on line 15
+[20-Oct-2017 00:37:43 America/Chicago] PHP Fatal error:  Call to undefined function get_instance() in /home/murgamandi/public_html/templates/boomerang/widgets/header_mainmenu.php on line 132
+[20-Oct-2017 00:43:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/widgets/properties_list.php on line 1
+[20-Oct-2017 00:49:41 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/widgets/header_loginmenu.php on line 9
+[20-Oct-2017 00:52:51 America/Chicago] PHP Fatal error:  Call to undefined function _search_form_primary() in /home/murgamandi/public_html/templates/boomerang/widgets/top_searchvisual.php on line 18
+[20-Oct-2017 01:00:25 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home/murgamandi/public_html/templates/boomerang/widgets/footer_contactus.php on line 66
+[20-Oct-2017 01:04:12 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/bottom_parallax2.php on line 14
+[20-Oct-2017 01:07:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/widgets/top_slidersearch.php on line 17
+[20-Oct-2017 01:07:59 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/top_slidersearch.php on line 59
+[20-Oct-2017 01:12:11 America/Chicago] PHP Fatal error:  Call to undefined function cache_file() in /home/murgamandi/public_html/templates/boomerang/widgets/custom_javascript.php on line 14
+[20-Oct-2017 01:30:41 America/Chicago] PHP Fatal error:  Call to undefined function get_instance() in /home/murgamandi/public_html/templates/boomerang/widgets/center_categories.php on line 27
+[20-Oct-2017 01:38:15 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/widgets/center_recentnews.php on line 15
+[20-Oct-2017 02:04:44 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/widgets/bottom_recentnews2.php on line 17
+[20-Oct-2017 02:12:18 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/right_searchvisual.php on line 11
+[20-Oct-2017 02:16:05 America/Chicago] PHP Fatal error:  Call to undefined function config_db_item() in /home/murgamandi/public_html/templates/boomerang/widgets/right_customfilter.php on line 14
+[20-Oct-2017 02:31:13 America/Chicago] PHP Fatal error:  Call to undefined function get_instance() in /home/murgamandi/public_html/templates/boomerang/widgets/center_categories2.php on line 26
+[20-Oct-2017 03:09:50 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/top_mapsearchvisual.php on line 22
+[20-Oct-2017 03:17:59 America/Chicago] PHP Fatal error:  Call to undefined function get_instance() in /home/murgamandi/public_html/templates/boomerang/widgets/top_geosearchvisual.php on line 27
+[20-Oct-2017 03:24:12 America/Chicago] PHP Fatal error:  Call to undefined function config_db_item() in /home/murgamandi/public_html/templates/boomerang/widgets/right_customfilter2.php on line 8
+[20-Oct-2017 03:27:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/widgets/center_imagegallery.php on line 39
+[20-Oct-2017 03:31:46 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/property_center_tabs.php on line 6
+[20-Oct-2017 03:35:33 America/Chicago] PHP Fatal error:  Call to undefined function lang_check() in /home/murgamandi/public_html/templates/boomerang/widgets/footer_aboutuscustom.php on line 18
+[20-Oct-2017 03:39:20 America/Chicago] PHP Fatal error:  Call to undefined function get_instance() in /home/murgamandi/public_html/templates/boomerang/widgets/right_categoriesmenu.php on line 26
+[20-Oct-2017 03:43:07 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/bottom_clientsreviews.php on line 28
+[20-Oct-2017 04:02:09 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/right_recentproperties.php on line 10
+[20-Oct-2017 04:05:49 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/widgets/top_sliderpropertywide.php on line 15
+[20-Oct-2017 04:09:36 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/widgets/property_center_slider.php on line 1
+[20-Oct-2017 04:13:23 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/top_featuredproperties.php on line 12
+[20-Oct-2017 04:17:10 America/Chicago] PHP Fatal error:  Call to undefined function config_item() in /home/murgamandi/public_html/templates/boomerang/widgets/property_right_weather.php on line 20
+[20-Oct-2017 04:20:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/widgets/top_slidersearchvisual.php on line 17
+[20-Oct-2017 04:20:57 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/top_slidersearchvisual.php on line 59
+[20-Oct-2017 04:24:44 America/Chicago] PHP Fatal error:  Call to undefined function get_instance() in /home/murgamandi/public_html/templates/boomerang/widgets/top_categoriesparallax.php on line 28
+[20-Oct-2017 04:39:52 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/widgets/custom_listing_template.php on line 4
+[20-Oct-2017 04:47:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/widgets/property_right_overview.php on line 58
+[20-Oct-2017 04:55:00 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/center_recentproperties.php on line 20
+[20-Oct-2017 05:36:37 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/bottom_featuredproperties.php on line 21
+[20-Oct-2017 05:47:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/widgets/center_featuredproperties.php on line 13
+[20-Oct-2017 05:59:19 America/Chicago] PHP Fatal error:  Call to undefined function config_db_item() in /home/murgamandi/public_html/templates/boomerang/widgets/property_center_walkscore.php on line 1
+[20-Oct-2017 06:18:14 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/custom_property_center_map.php on line 204
+[20-Oct-2017 06:25:48 America/Chicago] PHP Fatal error:  Call to undefined function config_item() in /home/murgamandi/public_html/templates/boomerang/widgets/property_right_enquiry-form.php on line 23
+[20-Oct-2017 06:37:09 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/center_recentpropertieslist.php on line 10
+[20-Oct-2017 07:14:59 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/murgamandi/public_html/templates/boomerang/widgets/property_center_plan_images.php on line 38
+[20-Oct-2017 07:38:11 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/property_right_agent-details.php on line 3
+[20-Oct-2017 07:49:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/widgets/property_center_imagegallery.php on line 30
+[20-Oct-2017 07:56:36 America/Chicago] PHP Fatal error:  Call to undefined function config_db_item() in /home/murgamandi/public_html/templates/boomerang/widgets/property_right_companydetails.php on line 45
+[20-Oct-2017 08:19:18 America/Chicago] PHP Fatal error:  Call to undefined function get_instance() in /home/murgamandi/public_html/templates/boomerang/widgets/center_basic_category_listing.php on line 27
+[20-Oct-2017 08:49:34 America/Chicago] PHP Fatal error:  Call to undefined function config_item() in /home/murgamandi/public_html/templates/boomerang/widgets/custom_property_center_reports.php on line 11
+[20-Oct-2017 09:19:50 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/widgets/property_right_recentproperties.php on line 3
+[20-Oct-2017 09:31:11 America/Chicago] PHP Fatal error:  Call to undefined function config_item() in /home/murgamandi/public_html/templates/boomerang/widgets/custom_top_demo_geomaps_preview.php on line 12
+[20-Oct-2017 09:57:40 America/Chicago] PHP Fatal error:  Call to undefined function config_db_item() in /home/murgamandi/public_html/templates/boomerang/widgets/property_right_currency-conversions.php on line 1
+[11-Nov-2017 18:17:04 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/widgets/custom_listing_template.php on line 4

@@ -1,0 +1,572 @@
+[12-Aug-2017 01:50:51 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2017 01:52:06 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2017 01:52:56 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2017 01:53:22 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2017 01:54:44 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2017 01:56:17 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2017 03:13:13 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2017 03:13:59 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2017 03:14:44 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2017 03:15:16 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2017 04:29:02 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2017 04:31:42 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2017 04:47:29 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2017 05:25:09 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2017 05:25:49 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2017 05:26:51 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[16-Aug-2017 05:54:37 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[16-Aug-2017 07:47:46 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[24-Aug-2017 06:36:00 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[24-Aug-2017 06:36:26 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[24-Aug-2017 06:36:42 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[26-Aug-2017 06:16:04 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[26-Aug-2017 06:16:20 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[26-Aug-2017 06:22:02 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[26-Aug-2017 06:28:50 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[26-Aug-2017 06:41:46 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[26-Aug-2017 06:42:36 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[26-Aug-2017 06:43:35 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[26-Aug-2017 06:49:03 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[26-Aug-2017 06:49:18 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[26-Aug-2017 06:52:27 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[26-Aug-2017 06:52:27 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/propertydetail.php on line 6
+[06-Sep-2017 00:39:48 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/send_otp.php on line 7
+[06-Sep-2017 00:41:00 America/Chicago] PHP Warning:  file(http://www.smsgatewayhub.com/api/mt/SendSMS?APIKey=FgZ6ExuZNk67JDD6OERASA&amp;senderid=TESTIN&amp;channel=2&amp;DCS=0&amp;flashsms=0&amp;number=9454307200&amp;text=Your verification no. is -8088&amp;route=13): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/send_otp.php on line 16
+[06-Sep-2017 00:53:32 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/send_otp.php on line 16
+[06-Sep-2017 00:54:10 America/Chicago] PHP Warning:  file(https://www.smsgatewayhub.com/api/mt/SendSMS?APIKey=FgZ6ExuZNk67JDD6OERASA&amp;senderid=TESTIN&amp;channel=2&amp;DCS=0&amp;flashsms=0&amp;number=919454307200&amp;text=Your OTP is for registration - 3927&amp;route=13): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/send_otp.php on line 16
+[06-Sep-2017 01:07:19 America/Chicago] PHP Warning:  file(https://www.smsgatewayhub.com/api/mt/SendSMS?APIKey=FgZ6ExuZNk67JDD6OERASA&amp;senderid=TESTIN&amp;channel=2&amp;DCS=0&amp;flashsms=0&amp;number=919453111388&amp;text=Your OTP is for registration - 9330&amp;route=clickhere): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/send_otp.php on line 16
+[06-Sep-2017 01:07:43 America/Chicago] PHP Warning:  file(https://www.smsgatewayhub.com/api/mt/SendSMS?APIKey=FgZ6ExuZNk67JDD6OERASA&amp;senderid=TESTIN&amp;channel=2&amp;DCS=0&amp;flashsms=0&amp;number=919453111388&amp;text=Your OTP is for registration - 6116&amp;route=clickhere): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/send_otp.php on line 16
+[06-Sep-2017 01:14:33 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/send_otp.php on line 17
+[06-Sep-2017 01:15:10 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/send_otp.php on line 17
+[06-Sep-2017 01:16:07 America/Chicago] PHP Warning:  hash() expects at most 3 parameters, 4 given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/send_otp.php on line 17
+[06-Sep-2017 01:16:07 America/Chicago] PHP Warning:  substr() expects at least 2 parameters, 1 given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/send_otp.php on line 17
+[07-Sep-2017 01:14:22 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/doctorupdate.php on line 87
+[07-Sep-2017 01:14:58 America/Chicago] PHP Warning:  move_uploaded_file(files/thumbnail/1504764898/apple01.png): failed to open stream: No such file or directory in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/doctorupdate.php on line 84
+[07-Sep-2017 01:14:58 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpnLwi0Q' to 'files/thumbnail/1504764898/apple01.png' in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/doctorupdate.php on line 84
+[07-Sep-2017 01:15:47 America/Chicago] PHP Warning:  move_uploaded_file(files/thumbnail/1504764947apple01.png): failed to open stream: No such file or directory in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/doctorupdate.php on line 84
+[07-Sep-2017 01:15:47 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpb55uq1' to 'files/thumbnail/1504764947apple01.png' in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/doctorupdate.php on line 84
+[07-Sep-2017 01:16:42 America/Chicago] PHP Warning:  move_uploaded_file(/files/thumbnail/1504765002apple01.png): failed to open stream: No such file or directory in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/doctorupdate.php on line 84
+[07-Sep-2017 01:16:42 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpGpWIHD' to '/files/thumbnail/1504765002apple01.png' in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/doctorupdate.php on line 84
+[07-Sep-2017 09:28:33 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[07-Sep-2017 09:28:56 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[07-Sep-2017 10:15:59 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[12-Sep-2017 07:40:59 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 16
+[12-Sep-2017 07:40:59 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 16
+[12-Sep-2017 07:42:08 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 17
+[12-Sep-2017 07:42:08 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 17
+[13-Sep-2017 08:54:33 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 17
+[13-Sep-2017 08:54:33 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 17
+[15-Sep-2017 23:14:51 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[15-Sep-2017 23:14:51 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[15-Sep-2017 23:14:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[15-Sep-2017 23:14:52 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[15-Sep-2017 23:18:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[15-Sep-2017 23:18:04 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[15-Sep-2017 23:18:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[15-Sep-2017 23:18:05 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:05:50 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:05:50 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:03 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:03 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:04 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:05 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:06 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:06 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:06 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:06 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:07 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:08 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:08 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:09 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:09 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:10 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:10 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:10 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:10 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:11 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:11 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:11 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:11 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:12 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:12 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:12 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:12 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:12 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:13 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:13 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:15 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:15 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:16 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:16 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:19 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:19 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:19 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:19 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:19 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:19 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:19 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:19 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:19 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:20 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:20 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:20 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:20 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:21 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:21 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:21 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:21 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:21 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:21 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:22 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:22 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:22 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:22 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:22 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:22 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:23 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:23 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:23 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:23 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:23 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:23 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:23 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:23 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:06:24 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:06:24 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[18-Sep-2017 09:42:36 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[18-Sep-2017 09:42:36 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[19-Sep-2017 13:54:48 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/userupdate.php on line 45
+[19-Sep-2017 13:55:21 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/userupdate.php on line 45
+[19-Sep-2017 13:55:39 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/userupdate.php on line 45
+[19-Sep-2017 13:56:45 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/userupdate.php on line 45
+[19-Sep-2017 14:02:26 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/userupdate.php on line 45
+[19-Sep-2017 14:02:49 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/userupdate.php on line 45
+[19-Sep-2017 14:06:20 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/userupdate.php on line 45
+[20-Sep-2017 08:14:26 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 01:15:23 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 01:15:34 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 01:21:03 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 03:03:37 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 03:03:53 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 03:06:26 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 03:09:52 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 03:17:48 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 03:17:57 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 04:16:45 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 04:17:05 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 04:23:51 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 04:24:01 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 04:25:22 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 04:31:44 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 04:35:56 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 04:51:54 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 05:15:51 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 06:02:12 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 06:02:22 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 06:02:29 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 06:28:42 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 06:35:08 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Sep-2017 07:24:20 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Sep-2017 08:22:25 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Sep-2017 08:23:45 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Sep-2017 04:45:19 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[22-Sep-2017 07:42:31 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Sep-2017 08:19:15 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 86
+[22-Sep-2017 08:21:32 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 86
+[22-Sep-2017 08:24:40 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 86
+[22-Sep-2017 08:52:21 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 86
+[22-Sep-2017 08:52:41 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 86
+[22-Sep-2017 08:52:52 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 86
+[23-Sep-2017 06:01:10 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:01:10 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:04:10 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:04:10 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:04:31 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:04:31 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:04:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:04:42 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:09:35 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:09:35 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:09:44 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:09:44 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:15:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:15:07 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:15:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:15:25 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:16:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:16:37 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:17:35 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:17:35 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:17:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:17:46 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:19:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:19:46 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:19:47 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:19:47 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:25:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:25:16 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:30:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:30:00 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:30:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:30:02 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:32:24 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:32:24 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 06:42:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 06:42:28 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 07:57:17 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 07:57:17 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 07:57:33 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 07:57:33 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 08:05:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 08:05:42 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 08:06:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 08:06:16 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 10:08:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 10:08:26 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[23-Sep-2017 10:08:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[23-Sep-2017 10:08:34 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[24-Sep-2017 15:36:13 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 87
+[24-Sep-2017 15:57:13 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 87
+[24-Sep-2017 15:57:56 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 87
+[24-Sep-2017 18:14:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[24-Sep-2017 18:14:12 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[24-Sep-2017 18:14:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[24-Sep-2017 18:14:37 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[24-Sep-2017 18:15:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[24-Sep-2017 18:15:07 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[24-Sep-2017 18:16:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[24-Sep-2017 18:16:46 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[24-Sep-2017 18:17:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[24-Sep-2017 18:17:09 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[24-Sep-2017 18:17:43 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[24-Sep-2017 18:17:43 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[24-Sep-2017 18:17:50 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[24-Sep-2017 18:17:50 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[27-Sep-2017 02:39:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[27-Sep-2017 02:39:11 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[27-Sep-2017 02:43:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 9
+[27-Sep-2017 02:43:46 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/addproperty.php on line 54
+[27-Sep-2017 15:42:41 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[27-Sep-2017 15:45:44 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[03-Oct-2017 09:05:43 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:05:43 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:05:43 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:05:43 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:05:43 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:05:43 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:05:43 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:05:43 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:05:43 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:05:43 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:06:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:06:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:06:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:06:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:06:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:06:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:06:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:06:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:06:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[03-Oct-2017 09:06:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/get_quest_ans.php on line 28
+[04-Oct-2017 02:16:58 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 02:19:24 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 03:33:59 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 03:38:58 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 04:08:17 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 06:52:19 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 06:53:13 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 07:03:17 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 07:04:37 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 07:04:41 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 07:05:24 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 07:06:04 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 07:06:11 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 07:14:55 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 07:17:17 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 07:30:42 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 07:30:54 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 22:39:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[04-Oct-2017 22:39:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[04-Oct-2017 22:39:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[04-Oct-2017 22:39:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[04-Oct-2017 22:39:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[04-Oct-2017 22:39:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[04-Oct-2017 22:54:49 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[04-Oct-2017 22:55:14 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[05-Oct-2017 00:13:48 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 00:13:48 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 00:13:48 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 00:13:48 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 00:13:48 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 00:13:48 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 00:13:48 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 00:13:48 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 00:14:51 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 00:14:51 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 00:14:51 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 00:14:51 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 00:14:51 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 00:14:51 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 00:14:51 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 00:14:51 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:06:00 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:06:00 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:06:00 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:06:00 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:06:00 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:06:00 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:06:00 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:06:00 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:07:42 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:07:42 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:07:42 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:07:42 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:07:42 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:07:42 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:07:42 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:07:42 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:10:24 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:10:24 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:10:24 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:10:24 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:10:24 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:10:24 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:10:24 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:10:24 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:13:03 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:13:03 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:13:03 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:13:03 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:13:03 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:13:03 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:13:03 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:13:03 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:21:30 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:21:30 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:21:30 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:21:30 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:21:30 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:21:30 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:21:30 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 01:21:30 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 08:02:52 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[05-Oct-2017 08:02:57 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[05-Oct-2017 08:03:04 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[05-Oct-2017 08:04:22 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[05-Oct-2017 08:04:29 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[05-Oct-2017 22:09:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:09:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:09:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:09:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:09:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:09:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:09:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:09:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:27 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[05-Oct-2017 22:54:34 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:34 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:34 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:34 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:34 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:34 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:34 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:34 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:50 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[05-Oct-2017 22:54:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:54:53 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:55:15 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[05-Oct-2017 22:55:23 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[05-Oct-2017 22:55:25 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:55:26 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:55:26 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:55:26 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:55:26 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:55:26 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:55:26 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:55:26 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 22:56:42 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[05-Oct-2017 22:57:02 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[05-Oct-2017 23:00:07 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 23:00:07 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:21:40 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:24:14 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:41:11 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[05-Oct-2017 23:58:46 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 94
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:01:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 00:02:13 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/searching.php on line 6
+[06-Oct-2017 02:27:19 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[06-Oct-2017 02:27:19 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[06-Oct-2017 02:27:19 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[06-Oct-2017 02:27:19 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[06-Oct-2017 02:27:19 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[06-Oct-2017 02:27:19 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[06-Oct-2017 02:27:19 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[06-Oct-2017 02:27:19 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[06-Oct-2017 04:02:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[06-Oct-2017 04:02:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[06-Oct-2017 04:02:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[06-Oct-2017 04:02:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[06-Oct-2017 04:02:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[06-Oct-2017 04:02:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[06-Oct-2017 04:02:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[06-Oct-2017 04:02:57 America/Chicago] PHP Warning:  deg2rad() expects parameter 1 to be double, string given in /home/digitalbrainco/public_html/murga_mandi_dynamic/api/favourite.php on line 6
+[14-Oct-2017 04:29:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/api/addproperty.php on line 9
+[14-Oct-2017 04:29:40 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/murgamandi/public_html/api/addproperty.php on line 54
+[14-Oct-2017 05:32:55 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/murgamandi/public_html/api/searching.php on line 98
+[24-Oct-2017 02:54:27 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/murgamandi/public_html/api/doctorupdate.php on line 61
+[24-Oct-2017 02:54:32 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/murgamandi/public_html/api/doctorupdate.php on line 61
+[30-Oct-2017 07:04:44 America/Chicago] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/murgamandi/public_html/api/getid_quest_ans.php on line 31
+[30-Oct-2017 07:42:11 America/Chicago] PHP Warning:  mysqli_query(): Empty query in /home/murgamandi/public_html/api/getdoctoruser_.php on line 19
+[30-Oct-2017 07:42:12 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/murgamandi/public_html/api/getdoctoruser_.php on line 20
+[30-Oct-2017 07:42:12 America/Chicago] PHP Warning:  mysqli_query(): Empty query in /home/murgamandi/public_html/api/getdoctoruser_.php on line 19
+[30-Oct-2017 07:42:12 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/murgamandi/public_html/api/getdoctoruser_.php on line 20
+[30-Oct-2017 07:42:12 America/Chicago] PHP Warning:  mysqli_query(): Empty query in /home/murgamandi/public_html/api/getdoctoruser_.php on line 19
+[30-Oct-2017 07:42:12 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/murgamandi/public_html/api/getdoctoruser_.php on line 20
+[30-Oct-2017 07:42:12 America/Chicago] PHP Warning:  mysqli_query(): Empty query in /home/murgamandi/public_html/api/getdoctoruser_.php on line 19
+[30-Oct-2017 07:42:12 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/murgamandi/public_html/api/getdoctoruser_.php on line 20
+[30-Oct-2017 07:42:42 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/murgamandi/public_html/api/getdoctoruser_.php on line 19
+[30-Oct-2017 07:42:42 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/murgamandi/public_html/api/getdoctoruser_.php on line 19
+[30-Oct-2017 07:42:42 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/murgamandi/public_html/api/getdoctoruser_.php on line 19
+[30-Oct-2017 07:42:42 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/murgamandi/public_html/api/getdoctoruser_.php on line 19
+[30-Oct-2017 07:43:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/murgamandi/public_html/api/getdoctoruser_.php on line 19
+[30-Oct-2017 07:43:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/murgamandi/public_html/api/getdoctoruser_.php on line 19
+[30-Oct-2017 07:43:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/murgamandi/public_html/api/getdoctoruser_.php on line 19
+[30-Oct-2017 07:43:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/murgamandi/public_html/api/getdoctoruser_.php on line 19
+[01-Nov-2017 00:46:22 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/murgamandi/public_html/api/propertydetail.php on line 33
+[01-Nov-2017 00:47:05 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/murgamandi/public_html/api/propertydetail.php on line 34
+[01-Nov-2017 01:23:33 America/Chicago] PHP Parse error:  syntax error, unexpected '$revw' (T_VARIABLE) in /home/murgamandi/public_html/api/propertydetail.php on line 34
+[02-Nov-2017 01:29:44 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/murgamandi/public_html/api/doctorupdate.php on line 61
+[02-Nov-2017 01:29:49 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/murgamandi/public_html/api/doctorupdate.php on line 61
+[08-Nov-2017 02:40:02 America/Chicago] PHP Parse error:  syntax error, unexpected '" AND"' (T_CONSTANT_ENCAPSED_STRING) in /home/murgamandi/public_html/api/chatlist.php on line 18
+[08-Nov-2017 02:40:49 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/murgamandi/public_html/api/chatlist.php on line 35
+[14-Nov-2017 22:12:07 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/murgamandi/public_html/api/searching.php on line 98

@@ -1,0 +1,37 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2017-03-30 11:17:22 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-03-30 11:17:27 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-03-30 15:18:19 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-03-30 15:29:49 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:49 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:49 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:49 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:49 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:49 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:49 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:49 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:49 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:49 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:49 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:49 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:50 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:50 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:50 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:50 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:50 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 15:29:50 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 20:14:04 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-03-30 20:15:17 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-03-30 20:15:30 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-03-30 20:16:55 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 20:16:55 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 20:16:55 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 20:16:55 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 20:16:55 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 20:16:55 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/properties_list.php 24
+ERROR - 2017-03-30 20:19:27 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/property.php 50
+ERROR - 2017-03-30 20:19:27 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/property.php 54
+ERROR - 2017-03-30 20:19:27 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/property.php 64
+ERROR - 2017-03-30 20:19:27 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/property.php 69
+ERROR - 2017-03-30 20:19:27 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/projectupdates/public_html/murgamandi/templates/boomerang/widgets/footer_aboutuscustom.php 14

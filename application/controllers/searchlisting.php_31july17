@@ -1,0 +1,39 @@
+<?php
+
+class Searchlisting extends Frontend_Controller 
+
+{
+	public function __construct ()
+
+	{
+
+		parent::__construct();
+        $this->load->model('searchlist_m');
+
+	}
+    
+    public function index(){
+		
+	}
+	public function search(){	
+         $this->data['record']=$this->searchlist_m->_get_listing($_GET);  
+		 $output = $this->parser->parse($this->data['settings_template'].'/'.'page_list_view.php', $this->data, TRUE);
+        echo str_replace('assets/', base_url('templates/'.$this->data['settings_template']).'/assets/', $output);          		 
+	}
+	
+	public function grid_view(){
+		 $this->data['record']=$this->searchlist_m->_get_listing($_GET);  
+		 $output = $this->parser->parse($this->data['settings_template'].'/'.'page_grid_view.php', $this->data, TRUE);
+        echo str_replace('assets/', base_url('templates/'.$this->data['settings_template']).'/assets/', $output);        
+         $this->load->view('page_grid_view');          		 
+	}
+	
+	public function full_view(){
+		 $this->data['record']=$this->searchlist_m->_get_listing($_GET);  
+		 $output = $this->parser->parse($this->data['settings_template'].'/'.'full_view.php', $this->data, TRUE);
+        echo str_replace('assets/', base_url('templates/'.$this->data['settings_template']).'/assets/', $output);        
+         $this->load->view('full_view');          		 
+	}
+
+
+}

@@ -1,0 +1,22 @@
+<?php
+
+class Searchlist_m extends MY_Model {
+	
+	  public function _get_listing($val){
+			  $this->db->select('*,(select value from property_value AS pv where p.id=pv.property_id AND pv.option_id=36) AS exp_price,(select value from property_value AS pv where p.id=pv.property_id AND pv.option_id=3) AS avg_wgt,(select value from property_value AS pv where p.id=pv.property_id AND pv.option_id=95 limit 1 ) AS qty,(select u.name_surname from user AS u JOIN property_user AS pu on pu.user_id=u.id  where p.id=pu.property_id) AS user_name');
+			  $this->db->from("property AS p");
+			  $this->db->where('p.is_activated',1);	
+               if((isset($val['cityfield'])) && ($val['cityfield']!="")){			  
+              $this->db->like('p.search_values',$val['cityfield']);	
+	           }
+			    if((isset($val['ads_search'])) && ($val['ads_search']!="")){		
+			  $this->db->or_like('p.search_values',$val['ads_search']);	
+				}
+			  $query = $this->db->get();
+			// echo $this->db->last_query();
+			  return $query->result_array();
+			 
+		  }
+}
+
+

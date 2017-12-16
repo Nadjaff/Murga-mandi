@@ -1,0 +1,31 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2017-09-13 14:33:14 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:33:15 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:33:29 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:33:30 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:33:46 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:34:09 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:34:27 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:34:31 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:56:08 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:56:17 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:56:25 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:56:44 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:56:48 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:56:56 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:57:32 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:57:33 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:57:40 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:57:46 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:58:28 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:58:38 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:58:43 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:58:51 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:58:52 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 14:58:57 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 15:00:30 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 15:00:36 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 15:25:27 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 15:53:27 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146
+ERROR - 2017-09-13 21:49:56 --> Severity: Notice  --> Undefined index: lang_id /home/digitalbrainco/public_html/murga_mandi_dynamic/application/libraries/Admin_Controller.php 146

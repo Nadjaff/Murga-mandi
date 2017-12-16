@@ -1,0 +1,24 @@
+<?php
+
+class Askquestion_m extends MY_Model {
+	
+	  public function _question_listing($picture){	
+            date_default_timezone_set("Asia/Kolkata"); 	  
+			$this->load->database();
+			$doctor_id = $this->input->post('id');
+			$question = $this->input->post('question');
+			//$picture = $this->input->post('uploadedfile');
+			$data = array(
+			   'doctor_id' => $this->input->post('id'),
+			   'question' => $this->input->post('question'),
+			   'upload' =>  $picture,
+			   'date_time' => date('H:i:s'),
+			   'status'  => 0
+			);
+			//print_r($data); 
+          $this->db->insert('question',$data);
+			//echo $this->db->last_query(); exit();
+		  }
+		  
+		 
+}

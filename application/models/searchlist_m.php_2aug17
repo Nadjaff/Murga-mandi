@@ -1,0 +1,64 @@
+<?php
+
+class Searchlist_m extends MY_Model {
+	
+	  public function _get_listing($val,$page,$limit){		      
+			  $this->db->select('*,(select value from property_value AS pv where p.id=pv.property_id AND pv.option_id=36 limit 1) AS exp_price,(select value from property_value AS pv where p.id=pv.property_id AND pv.option_id=3  limit 1) AS avg_wgt,(select value from property_value AS pv where p.id=pv.property_id AND pv.option_id=95 limit 1 ) AS qty,(select u.name_surname from user AS u JOIN property_user AS pu on pu.user_id=u.id  where p.id=pu.property_id  limit 1) AS user_name');
+			  $this->db->from("property AS p");
+			  $this->db->where('p.is_activated',1);	
+               if((isset($val['cityfield'])) && ($val['cityfield']!="")){			  
+              $this->db->like('p.search_values',$val['cityfield']);	
+	           }
+			    if((isset($val['ads_search'])) && ($val['ads_search']!="")){		
+			  $this->db->or_like('p.search_values',$val['ads_search']);	
+				}
+				$this->db->limit($limit,($page*$limit+1) );
+			  $query = $this->db->get();
+			// echo $this->db->last_query();
+			  //return $query->result_array();
+			  $re_arr=$query->result_array();
+			  $nwarr=array();
+			  if(isset($_GET['min']) && $_GET['min']!='' && isset($_GET['max']) && $_GET['max']!=''  ){
+			  foreach($re_arr as $key=>$re_val){
+				  if($re_val['exp_price'] >= $_GET['min'] && $re_val['exp_price'] <= $_GET['max']  && $re_val['avg_wgt'] >= $_GET['wt_min'] && $re_val['avg_wgt'] <= $_GET['wt_max'] ){
+					 $nwarr[]=$re_val;
+				  }				 
+			   }
+			     return $nwarr;
+			  }else
+			  {
+				 return $re_arr; 
+			  }
+			 
+		  }
+		  
+		  public function record_count($val) {
+			$this->db->select('*,(select value from property_value AS pv where p.id=pv.property_id AND pv.option_id=36 limit 1) AS exp_price,(select value from property_value AS pv where p.id=pv.property_id AND pv.option_id=3  limit 1) AS avg_wgt,(select value from property_value AS pv where p.id=pv.property_id AND pv.option_id=95 limit 1 ) AS qty,(select u.name_surname from user AS u JOIN property_user AS pu on pu.user_id=u.id  where p.id=pu.property_id  limit 1) AS user_name');
+			  $this->db->from("property AS p");
+			  $this->db->where('p.is_activated',1);	
+               if((isset($val['cityfield'])) && ($val['cityfield']!="")){			  
+              $this->db->like('p.search_values',$val['cityfield']);	
+	           }
+			    if((isset($val['ads_search'])) && ($val['ads_search']!="")){		
+			  $this->db->or_like('p.search_values',$val['ads_search']);	
+				}
+			  $query = $this->db->get();
+			// echo $this->db->last_query();
+			  //return $query->result_array();
+			  $re_arr=$query->result_array();
+			  $nwarr=array();
+			  if(isset($_GET['min']) && $_GET['min']!='' && isset($_GET['max']) && $_GET['max']!=''  ){
+			  foreach($re_arr as $key=>$re_val){
+				  if($re_val['exp_price'] >= $_GET['min'] && $re_val['exp_price'] <= $_GET['max']  && $re_val['avg_wgt'] >= $_GET['wt_min'] && $re_val['avg_wgt'] <= $_GET['wt_max'] ){
+					 $nwarr[]=$re_val;
+				  }				 
+			   }
+			     return count($nwarr);
+			  }else
+			  {
+				 return count($re_arr); 
+			  }
+          }
+}
+
+

@@ -1,0 +1,22 @@
+<?php
+
+class Mobile_register extends MY_Model {
+    public function send_otp($input,$otp_nu)
+	{
+	  
+	  $pass = substr(hash('sha512', $input['phone'].config_item('encryption_key')), 0, 10); 
+	  $qry = "INSERT INTO user (`username`,`password`,`name_surname`,`phone`,`type`,`activated`,`registration_date`,`otp_number`) VALUES('".$input['phone']."','".$pass."','".$input['phone']."','".$input['phone']."','USER','0','".date('Y-m-d H:i:s')."','".$otp_nu."')";
+	  $this->db->query($qry);
+	}
+   
+    public function check_mobile($input)
+	{
+	  $qry ="SELECT * FROM `user` where phone ='".$input['phone']."'";
+	  $query = $this->db->query($qry);
+	  return $query->num_rows();
+	}
+    
+}
+
+
+

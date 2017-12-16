@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>  
+<head>
+ <?php _widget('head');?> 
+ <link rel="stylesheet" href="assets/css/jslider.css" type="text/css">	<!-- jquery.min.js -->	<script type="text/javascript" src="assets/js/jshashtable-2.1_src.js"></script>	<script type="text/javascript" src="assets/js/jquery.numberformatter-1.2.3.js"></script>	<script type="text/javascript" src="assets/js/tmpl.js"></script>	<script type="text/javascript" src="assets/js/draggable-0.1.js"></script>	<script type="text/javascript" src="assets/js/jquery.slider.js"></script>
+ 
+</head>
+<body class="body-wrap pge_list <?php _widget('custom_paletteclass'); ?>">
+
+<!-- MAIN WRAPPER -->
+<div class="">
+   
+    <!-- HEADER -->
+    <div id="divHeaderWrapper">
+    <header class="header-standard-3"> 
+        <?php _widget('header_loginmenu');?>
+       
+    </header>   
+    </div>
+     
+    <!-- MAIN CONTENT -->
+	
+	
+<div id="content-block" class="container">
+    <div class="row padding-block">
+        <div class="col-md-12">
+            <div class="ads-1">
+                <a href="#"><img src="assets/images/ad-1.jpg"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php //print_r($record);?>
+<div class="container">    
+        <div id="loginboxmain" style="margin-top:30px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+				<div class="panel panel-info" >
+                    <div class="panel-heading">
+                        <div class="panel-title">Phone Number</div>
+                    </div>     
+                    <div style="padding-top:30px" class="panel-body" >
+					   <?php if(isset($_GET['err']) && ($_GET['err']!='')){ ?>
+					   <div class="er_msg">Phone No. is already registered.</div>
+					   <?php } ?>
+                        <form action="" method="post" id="loginform" class="form-horizontal" role="form">
+                            <div style="margin-bottom: 25px" class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                                <input type="text" class="form-control" pattern="^\d{10}$" title="Enter a valid number" name="phone" placeholder="Phone Number" value="<?php if(isset($_POST['phone'])){echo $_POST['phone'];} ?>" required>                                        
+                            </div> 
+                            <div class="input-group">
+                                <div class="checkbox">
+                                <label><input id="login-remember" type="checkbox" name="remember" value="1" required>  By registering your phone number on Murga Mandi, you accept our <a href="<?php echo base_url().'index.php/'.$lang_code.'/183/terms_of_use'; ?>">Terms of Use</a>.</label>
+                                </div>
+                            </div>
+
+                            <div style="margin-top:10px" class="form-group">
+                                <div class="col-sm-12 controls" style="text-align:right;"><input type="submit" name="submit" value="Get OTP" class="btn btn-primary"/></div>
+                            </div>  
+                            </form>     
+                        </div>                     
+                </div>  
+        </div>
+    </div>
+<?php _subtemplate( 'footers', _ch($subtemplate_footer, 'standard')); ?>
+    </div> 
+</body>
+</html>

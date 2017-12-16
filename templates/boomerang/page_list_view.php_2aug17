@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>  
+<head>
+ <?php _widget('head');?> 
+ <link rel="stylesheet" href="assets/css/jslider.css" type="text/css">	<!-- jquery.min.js -->	<script type="text/javascript" src="assets/js/jshashtable-2.1_src.js"></script>	<script type="text/javascript" src="assets/js/jquery.numberformatter-1.2.3.js"></script>	<script type="text/javascript" src="assets/js/tmpl.js"></script>	<script type="text/javascript" src="assets/js/draggable-0.1.js"></script>	<script type="text/javascript" src="assets/js/jquery.slider.js"></script>
+</head>
+<body class="body-wrap pge_list <?php _widget('custom_paletteclass'); ?>">
+
+<!-- MAIN WRAPPER -->
+<div class="">
+   
+    <!-- HEADER -->
+    <div id="divHeaderWrapper">
+    <header class="header-standard-3"> 
+        <?php _widget('header_loginmenu');?>
+       
+    </header>   
+    </div>
+       <?php _widget('top_search');?>
+    <!-- MAIN CONTENT -->
+	
+	
+<div id="content-block" class="container">
+    <div class="row padding-block">
+        <div class="col-md-12">
+            <div class="ads-1">
+                <a href="#"><img src="assets/images/ad-1.jpg"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="filter-bg">
+                <form id="loginform" action="#" method="post" role="form">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <h3>Discover Ads near you</h3>
+                            <div class="layout">
+                                <div class="layout-slider">
+                                    <input id="Slider1" type="slider" name="price" value="0;500" /> </div>
+                                <script type="text/javascript" charset="utf-8">
+                                    jQuery("#Slider1").slider({
+                                        from: 0,
+                                        to: 500,
+                                        heterogeneity: ['50/50'],
+                                        step: 1,
+                                        dimension: '&nbsp;km'
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <h3>Discover with Rates</h3>
+                            <div class="layout">
+                                <div class="layout-slider">
+                                    <input id="Slider2" type="slider" name="price" value="
+									<?php if(($_GET['min']!="") && ($_GET['max']!="") ) { 
+									echo $_GET['min'].';'.$_GET['max']; } else {
+									?>0;50000<?php } ?>" /> </div>
+                                <script type="text/javascript" charset="utf-8">
+								    $(document).ready(function (){
+									  $(".jslider-pointer").click(function(){
+										var sld_var=$("#Slider2").val();
+										var weigt_val=$("#Slider3").val();
+										var wt_str=weigt_val.split(";");
+										var wt_min=wt_str[0];
+										var wt_max=wt_str[1];
+										var str_val=sld_var.split(";");
+										var min=str_val[0];
+										var max=str_val[1];
+										var url="<?php echo base_url('index.php/searchlisting/search').'/'.$lang_code.'?cityfield='.$_GET['cityfield'].'&ads_search='.$_GET['cityfield'] ?>&min="+min+"&max="+max+"&wt_min="+wt_min+"&wt_max="+wt_max;
+										//alert(url);
+										location.href=url;
+										//$('#full_rec').load(url+" #full_rec");
+										 /*$.ajax({ 
+								 url:'<?php echo base_url("index.php/searchlisting/search").'?cityfield='.$_GET['cityfield'].'&ads_search='.$_GET['cityfield'] ?>&min='+min+'&max='+max+'&wt_min='+wt_min+'&wt_max='+wt_max,
+											type:"GET",
+											success:function(data){
+											console.log($(data).filter('#full_rec') );
+
+											}
+										  });*/
+									  });
+								    });	
+                                    jQuery("#Slider2").slider({
+                                        from:0,
+                                        to: 50000,
+                                        heterogeneity: ['50/50'],
+                                        step: 1,
+                                        dimension: '&nbsp;Rs'
+                                    });
+									
+                                </script>
+								
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <h3>Discover with Weight</h3>
+                            <div class="layout">
+                                <div class="layout-slider">
+                                    <input id="Slider3" type="slider" name="price" value="
+									<?php 
+									  if(($_GET['wt_min']!="") && ($_GET['wt_max']!="") ) { 
+									echo $_GET['wt_min'].';'.$_GET['wt_max']; } else {
+									?>1;100<?php } ?>" /> </div>
+                                <script type="text/javascript" charset="utf-8">
+                                    jQuery("#Slider3").slider({
+                                        from: 1,
+                                        to: 100,
+                                        heterogeneity: ['50/50'],
+                                        step: 1,
+                                        dimension: '&nbsp;kg'
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+	.viewas .fa-list {
+    color: #c3c6c7;
+	}
+	.head-ads h1 {
+    font-size: 16px;
+    margin: 10px 0 0;
+    color: #ff7700;padding-left: 0px;
+    border: none; font-weight: normal;}
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-sm-6">
+            <div class="viewas">
+                <p>View 
+				<span><a href="<?php echo site_url('searchlisting/search/') ?>" title="List View"><i class="fa fa-list"></i></a></span> &nbsp; 
+				<span><a href="<?php echo site_url('searchlisting/grid_view/') ?>" title="Grid View"><i class="fa fa-th-large"></i></a></span> &nbsp; 
+				<span><a href="<?php echo site_url('searchlisting/full_view/') ?>" title="Full View"><i class="fa fa-window-maximize"></i></a></span>				
+				</p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="viewas">
+                <p>Short by
+                    <select class="form-control-filter">
+                        <option value="recent">Most Recent</option>
+                        <option value="high">Price: Rs Low to High</option>
+                        <option value="low">Price: Rs High to Low</option>
+                    </select>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<?php //print_r($record);?>
+<div class="container mb30" id="full_rec">
+    <div class="head-ads">
+	<h1>Featured Ads</h1>
+	<p><a href="<?php echo site_url(); ?>">View all</a></p>
+	</div>
+	
+	<?php 
+	foreach($record as $rec_val){?>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="crops-page">
+                <div class="row">				
+                    <div class="col-md-3 col-sm-4">
+                        <div class="main-crops featuredads">
+						<?php if($rec_val['is_featured'] == 1){echo "<span class='discount_lable'>FEATURED</span>"; }else{
+							echo '';
+						}?>						
+                            <a href="<?php 
+							echo site_url('/property/'.$rec_val['id']); ?>"><img height="147" src="<?php echo base_url('files').'/'.$rec_val['image_filename'];?>"></a>
+							<?php 
+							/* 
+							if(isset($this->session->userdata('name_surname'))){ */
+							$farmer_nm = $this->session->userdata('name_surname');
+							if(!empty($farmer_nm) && $farmer_nm==$rec_val['user_name']){?>
+							<div class="fav-crop"><a href="#" title="Remove from favorite"><i class="fa fa-heart"></i></a></div>
+							<?php
+							}else{?>
+							<div class="fav-crop"><a href="#" title="Remove from favorite"><i class="fa fa-heart-o"></i></a></div>
+							<?php
+							}
+							?>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                        <a href="<?php 
+							echo site_url('/property/'.$rec_val['id']); ?>">
+                            <div class="head-crop">
+                                <h4><b><i class="fa fa-map-marker"></i></b> 
+								<?php echo $rec_val['address'];?> <span><img src="assets/images/phverify.png"></span></h4>
+                                <h4><b><i class="fa fa-user"></i> Farmer Name :</b>
+								<?php echo $rec_val['user_name'];?></h4> </div>
+                            <h4><b><i class="fa fa-rupee"></i> Average Rate :</b> 
+							<span>Rs. <?php echo $rec_val['exp_price'];?></span></h4>
+                            <h4><b><i class="fa fa-cubes"></i> Quantity :</b> <span>
+							 <?php echo $rec_val['qty'];?></span></h4>
+                            <h4><b><i class="fa fa-balance-scale"></i> Average Weight :</b> <span><?php echo $rec_val['avg_wgt'];?></span></h4></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<?php }?>
+    
+	<?php print_r($links); ?>
+	<nav aria-label="Page navigation example" style="text-align: center;">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>	
+</div>
+<!-- FOOTER -->
+<?php _subtemplate( 'footers', _ch($subtemplate_footer, 'standard')); ?>
+    </div>
+
+    <?php _widget('custom_javascript');?>
+        <script>
+            $(function() {
+                $(".dropdown").hover(function() {
+                    $('.dropdown-menu', this).stop(true, true).fadeIn("fast");
+                    $(this).toggleClass('open');
+                    $('b', this).toggleClass("caret caret-up");
+                }, function() {
+                    $('.dropdown-menu', this).stop(true, true).fadeOut("fast");
+                    $(this).toggleClass('open');
+                    $('b', this).toggleClass("caret caret-up");
+                });
+            });
+        </script>
+		
+</body>
+</html>

@@ -1,0 +1,60 @@
+<?php
+class Searchlisting extends Frontend_Controller
+{
+    public function __construct ()
+	{
+		parent::__construct();
+		$this->load->helper("url");
+		$this->load->model('searchlist_m');
+		$this->load->library("pagination");
+	}
+    public function index()
+    {
+        echo "hi";
+    }
+    public function search(){
+        $config = array();
+		
+        $config["base_url"] = base_url('index.php/searchlisting/search')."/".$this->data['lang_code'];
+        $config["total_rows"] = $this->searchlist_m->record_count($_GET);
+        $config["per_page"] = 1;
+        $config["uri_segment"] = 4;
+		/////js1aug-------
+		$config['full_tag_open'] = "<ul class='pagination'>";
+		$config['full_tag_close'] ="</ul>";
+		$config['num_tag_open'] = '<li>';
+		$config['num_tag_close'] = '</li>';
+		$config['cur_tag_open'] = "<li class='disabled'><li class='active'><a href='#'>";
+		$config['cur_tag_close'] = "<span class='sr-only'></span></a></li>";
+		$config['next_tag_open'] = "<li>";
+		$config['next_tagl_close'] = "</li>";
+		$config['prev_tag_open'] = "<li>";
+		$config['prev_tagl_close'] = "</li>";
+		$config['first_tag_open'] = "<li>";
+		$config['first_tagl_close'] = "</li>";
+		$config['last_tag_open'] = "<li>";
+		$config['last_tagl_close'] = "</li>";
+		
+		/////js1aug-------
+        $this->pagination->initialize($config);
+        $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
+        //$this->data["results"] = $this->searchlist_m->_get_listing($_GET); 
+        $this->data["links"] = $this->pagination->create_links();
+         $this->data['record']=$this->searchlist_m->_get_listing($_GET, $page ,$config["per_page"]);  
+		 $output = $this->parser->parse($this->data['settings_template'].'/'.'page_list_view.php', $this->data, TRUE);
+        echo str_replace('assets/', base_url('templates/'.$this->data['settings_template']).'/assets/', $output);  
+	}
+	public function grid_view(){
+		 $this->data['record']=$this->searchlist_m->_get_listing($_GET);  
+		 $output = $this->parser->parse($this->data['settings_template'].'/'.'page_grid_view.php', $this->data, TRUE);
+        echo str_replace('assets/', base_url('templates/'.$this->data['settings_template']).'/assets/', $output);        
+         $this->load->view('page_grid_view');          		 
+	}
+	
+	public function full_view(){
+		 $this->data['record']=$this->searchlist_m->_get_listing($_GET);  
+		 $output = $this->parser->parse($this->data['settings_template'].'/'.'full_view.php', $this->data, TRUE);
+        echo str_replace('assets/', base_url('templates/'.$this->data['settings_template']).'/assets/', $output);        
+         $this->load->view('full_view');          		 
+	}
+}

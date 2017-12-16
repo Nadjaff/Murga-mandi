@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>  
+<head>
+ <?php _widget('head');?>
+</head>
+<body class="body-wrap <?php _widget('custom_paletteclass'); ?>">
+
+<?php _widget('slidebar'); ?>
+<!-- MAIN WRAPPER -->
+<div class="">
+    <?php _widget('custom_palette');?>
+    
+    <!-- HEADER -->
+    <div id="divHeaderWrapper">
+    <header class="header-standard-3"> 
+        <?php _widget('header_loginmenu');?>
+        <?php //_widget('header_mainmenu');?>
+    </header>   
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <section class="slice bg-white bb" id="main">
+        <div class="wp-section">
+            <div id="content-block" class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                            <div id="main-inner">
+                <!-- MAP -->
+                <?php //_widget('top_map'); ?>
+				<div class="container">
+					<div id="your-ads">
+
+					<h2>Your Favorite Ads</h2>
+
+					<p>Here, you will find your favorite Ads</p>
+					<div role="tabpanel">
+
+					<div class="row head-block-page">
+
+					  <div class="col-md-6"></div>
+
+					  <div class="col-md-6">
+
+					  <form class="navbar-form" role="search">
+
+						<p style="margin: 14px 0;"><a href="javascript:void(0)"><i class="fa fa-trash-o"></i> &nbsp; Clear all favorites</a></p>
+
+					  </form>
+
+					  </div>
+
+					</div>
+
+					  <hr>
+
+					<div class="fav-mainads">
+
+					<div class="row">
+
+					  <div class="col-md-12">
+
+						<div class="crops-page">
+
+						  <div class="row">
+
+							<div class="col-md-3 col-sm-4">
+
+								<div class="main-crops featuredads">
+								<span class="discount_lable">FEATURED</span>
+								<a href="javascript:void(0)"><img src="assets/images/crop-detail-2.jpg"></a>
+								<div class="fav-crop"><a href="#" title="Add to favorite"><i class="fa fa-heart"></i></a></div>
+								</div>
+
+							</div>
+
+							<div class="col-md-9 col-sm-8">
+
+								<a href="javascript:void(0)">
+								<div class="head-crop">
+									<h4><b><i class="fa fa-map-marker"></i></b> 256, Ramkot, Sitapur, Uttar Pradesh <span><img src="assets/images/phverify.png"></span></h4>
+									<h4><b><i class="fa fa-user"></i> Farmer Name :</b> Rakesh Singh</h4>
+								</div>
+								<h4><b><i class="fa fa-cubes"></i> Quantity :</b> <span>140 pcs.<span></span></span></h4>
+								<h4><b><i class="fa fa-rupee"></i> Average Rate :</b> <span>Rs. 900 / pc.</span></h4>
+								<h4><b><i class="fa fa-balance-scale"></i> Average Weight :</b> <span>5 kg / pc.</span></h4></a>
+							</div>
+
+						  </div>
+
+						</div>
+
+					  </div>
+
+					</div>
+
+					</div>
+
+					</div>
+
+				  </div>
+				 </div>
+                <div id="content" class="container">
+                    <!-- SLOGAN -->
+                    <div class="block-content block-content-small-padding">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <?php //_widget('center_recentproperties'); ?>  
+        <div class="row-fluid">
+            <div class="span12 panel panel-default panel-sidebar-1">
+            <div class="panel-heading"><h2 id="content"> {lang_Myfavorites}</h2></div>
+            <div class="property_content panel-body">
+                <div class="widget-content">
+                
+                    <?php if($this->session->flashdata('message')):?>
+                    <?php echo $this->session->flashdata('message')?>
+                    <?php endif;?>
+                    <?php if($this->session->flashdata('error')):?>
+                    <p class="alert alert-error"><?php echo $this->session->flashdata('error')?></p>
+                    <?php endif;?>
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                        	<th>#</th>
+                            <th><?php echo lang_check('Property');?></th>
+                            <th><?php echo lang_check('Language');?></th>
+                            <th class="control"><?php echo lang_check('Open');?></th>
+                        	<th class="control"><?php echo lang_check('Delete');?></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <?php if(count($listings)): foreach($listings as $listing_item):?>
+                                    <tr>
+                                        <td><?php echo $listing_item->id; ?></td>
+                                        <td><?php echo $properties[$listing_item->property_id]; ?></td>
+                                        <td><?php echo '['.strtoupper($listing_item->lang_code).']'; ?></td>
+                                        <td>
+                                        <a href="<?php echo site_url($listing_uri.'/'.$listing_item->property_id.'/'.$listing_item->lang_code); ?>" class="btn"><i class="icon-search"></i><?php echo lang_check('Open');?></a>
+                                        </td>
+                                        <td><?php echo btn_delete('ffavorites/myfavorites_delete/'.$lang_code.'/'.$listing_item->id)?></td>
+                                    
+                                    </tr>
+                        <?php endforeach;?>
+                        <?php else:?>
+                                    <tr>
+                                    	<td colspan="20"><?php echo lang_check('We could not find any');?></td>
+                                    </tr>
+                        <?php endif;?>           
+                      </tbody>
+                    </table>
+
+                  </div>
+            </div>
+            </div>
+        </div>
+                            </div>
+                        </div><!-- /.row -->
+                    </div><!-- /.block-content -->
+                    <!-- SOCIAL -->
+                    <?php //_widget('bottom_social'); ?>  
+                    <!-- STATISTICS -->
+                    <?php //_widget('bottom_stats'); ?> 
+                </div><!-- /.container -->
+            </div><!-- /#main-inner -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <?php _subtemplate( 'footers', _ch($subtemplate_footer, 'standard')); ?>
+</div>
+
+<?php _widget('custom_javascript');?>
+
+</body>
+</html>

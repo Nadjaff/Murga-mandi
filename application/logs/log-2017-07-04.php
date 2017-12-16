@@ -1,0 +1,46 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2017-07-04 01:11:38 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-07-04 06:12:05 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 50
+ERROR - 2017-07-04 06:12:06 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 54
+ERROR - 2017-07-04 06:12:06 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 64
+ERROR - 2017-07-04 06:12:06 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 69
+ERROR - 2017-07-04 06:12:06 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-07-04 08:09:16 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 50
+ERROR - 2017-07-04 08:09:16 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 54
+ERROR - 2017-07-04 08:09:16 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 64
+ERROR - 2017-07-04 08:09:16 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 69
+ERROR - 2017-07-04 08:09:17 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-07-04 08:13:02 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 50
+ERROR - 2017-07-04 08:13:03 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 54
+ERROR - 2017-07-04 08:13:03 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 64
+ERROR - 2017-07-04 08:13:03 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 69
+ERROR - 2017-07-04 08:13:03 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-07-04 08:16:50 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 50
+ERROR - 2017-07-04 08:16:50 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 54
+ERROR - 2017-07-04 08:16:50 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 64
+ERROR - 2017-07-04 08:16:50 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 69
+ERROR - 2017-07-04 08:16:50 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-07-04 08:20:36 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 50
+ERROR - 2017-07-04 08:20:36 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 54
+ERROR - 2017-07-04 08:20:37 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 64
+ERROR - 2017-07-04 08:20:37 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 69
+ERROR - 2017-07-04 08:20:37 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-07-04 08:24:24 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 50
+ERROR - 2017-07-04 08:24:24 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 54
+ERROR - 2017-07-04 08:24:24 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 64
+ERROR - 2017-07-04 08:24:24 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 69
+ERROR - 2017-07-04 08:24:24 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-07-04 08:31:58 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 50
+ERROR - 2017-07-04 08:31:58 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 54
+ERROR - 2017-07-04 08:31:58 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 64
+ERROR - 2017-07-04 08:31:58 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 69
+ERROR - 2017-07-04 08:31:58 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-07-04 08:43:20 --> Severity: Notice  --> Undefined index: lang_id /home/murgamandi/public_html/application/libraries/Admin_Controller.php 146
+ERROR - 2017-07-04 09:39:40 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-07-04 20:20:39 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/widgets/footer_aboutuscustom.php 14
+ERROR - 2017-07-04 20:35:47 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 50
+ERROR - 2017-07-04 20:35:47 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 54
+ERROR - 2017-07-04 20:35:47 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 64
+ERROR - 2017-07-04 20:35:47 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/property.php 69
+ERROR - 2017-07-04 20:35:47 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' /home/murgamandi/public_html/templates/boomerang/widgets/footer_aboutuscustom.php 14

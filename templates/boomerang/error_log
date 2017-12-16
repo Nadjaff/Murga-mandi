@@ -1,0 +1,73 @@
+[13-Oct-2017 17:44:14 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/full_view.php on line 4
+[14-Oct-2017 01:46:53 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/myresearch.php on line 4
+[16-Oct-2017 15:34:03 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_featured.php on line 4
+[16-Oct-2017 15:53:56 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/invoice_print.php on line 32
+[16-Oct-2017 16:19:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/property_print.php on line 147
+[16-Oct-2017 16:19:07 America/Chicago] PHP Fatal error:  Call to undefined function _ch() in /home/murgamandi/public_html/templates/boomerang/property_print.php on line 196
+[16-Oct-2017 16:19:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/property_print.php on line 147
+[16-Oct-2017 16:19:12 America/Chicago] PHP Fatal error:  Call to undefined function _ch() in /home/murgamandi/public_html/templates/boomerang/property_print.php on line 196
+[17-Oct-2017 00:26:30 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/myrates.php on line 4
+[17-Oct-2017 01:28:36 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_grid_view.php on line 4
+[18-Oct-2017 12:14:45 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/otp.php on line 4
+[18-Oct-2017 12:15:03 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/login.php on line 4
+[18-Oct-2017 12:15:12 America/Chicago] PHP Fatal error:  Call to undefined function get_instance() in /home/murgamandi/public_html/templates/boomerang/qna_an.php on line 4
+[18-Oct-2017 12:15:22 America/Chicago] PHP Fatal error:  Call to undefined function get_instance() in /home/murgamandi/public_html/templates/boomerang/doctor.php on line 4
+[18-Oct-2017 12:15:25 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/profile.php on line 4
+[18-Oct-2017 12:18:03 America/Chicago] PHP Fatal error:  Call to undefined function _che() in /home/murgamandi/public_html/templates/boomerang/results.php on line 7
+[18-Oct-2017 12:26:12 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/property.php on line 4
+[18-Oct-2017 12:29:24 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/editrate.php on line 4
+[18-Oct-2017 12:40:45 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/otp_send.php on line 4
+[18-Oct-2017 12:44:32 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/myprofile.php on line 4
+[18-Oct-2017 12:48:19 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_news.php on line 4
+[18-Oct-2017 12:52:06 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_page.php on line 4
+[18-Oct-2017 12:55:53 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/login_book.php on line 4
+[18-Oct-2017 12:59:40 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/mypayments.php on line 4
+[18-Oct-2017 13:03:27 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/mymessages.php on line 4
+[18-Oct-2017 13:07:14 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/editmessage.php on line 4
+[18-Oct-2017 13:11:01 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/myfavorites.php on line 4
+[18-Oct-2017 13:14:48 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_expert.php on line 4
+[18-Oct-2017 13:22:22 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_agents.php on line 4
+[18-Oct-2017 13:52:38 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/myproperties.php on line 4
+[18-Oct-2017 14:03:59 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/editproperty.php on line 4
+[18-Oct-2017 14:07:46 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/location_map.php on line 3
+[18-Oct-2017 14:11:33 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/results_news.php on line 3
+[18-Oct-2017 14:17:18 America/Chicago] PHP Fatal error:  Call to undefined function get_instance() in /home/murgamandi/public_html/templates/boomerang/ask_question.php on line 4
+[18-Oct-2017 14:26:41 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_sitemap.php on line 4
+[18-Oct-2017 14:35:43 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_contact.php on line 4
+[18-Oct-2017 14:38:02 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/editresearch.php on line 4
+[18-Oct-2017 14:41:49 America/Chicago] PHP Fatal error:  Call to undefined function _l() in /home/murgamandi/public_html/templates/boomerang/invoice_form.php on line 7
+[18-Oct-2017 14:45:36 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_showroom.php on line 4
+[18-Oct-2017 14:53:10 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_featured.php on line 4
+[18-Oct-2017 15:08:18 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_articles.php on line 4
+[18-Oct-2017 15:27:13 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_demomaps.php on line 4
+[18-Oct-2017 15:31:00 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_homepage.php on line 4
+[18-Oct-2017 15:34:47 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_contact2.php on line 4
+[18-Oct-2017 15:49:55 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/property_print.php on line 147
+[18-Oct-2017 15:49:55 America/Chicago] PHP Fatal error:  Call to undefined function _ch() in /home/murgamandi/public_html/templates/boomerang/property_print.php on line 196
+[18-Oct-2017 15:55:21 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_list_view.php on line 4
+[18-Oct-2017 15:57:29 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_grid_view.php on line 4
+[18-Oct-2017 16:12:37 America/Chicago] PHP Fatal error:  Call to undefined function get_instance() in /home/murgamandi/public_html/templates/boomerang/doctor_profile.php on line 4
+[18-Oct-2017 16:27:47 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/results_expert.php on line 1
+[18-Oct-2017 22:38:08 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/myreservations.php on line 4
+[18-Oct-2017 22:38:16 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/propertycompare.php on line 4
+[18-Oct-2017 22:38:20 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/viewreservation.php on line 4
+[18-Oct-2017 22:38:35 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/make_withdrawal.php on line 4
+[18-Oct-2017 22:38:39 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/results_profile.php on line 1
+[18-Oct-2017 22:38:42 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/custom_template.php on line 4
+[18-Oct-2017 22:38:46 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_onlyresults.php on line 4
+[18-Oct-2017 22:38:50 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/showroom_company.php on line 4
+[18-Oct-2017 22:39:19 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/murgamandi/public_html/templates/boomerang/results_showroom.php on line 3
+[18-Oct-2017 22:39:28 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_agents-list.php on line 4
+[18-Oct-2017 22:39:49 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_customsearch.php on line 4
+[18-Oct-2017 22:40:06 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_homepage-geo.php on line 4
+[18-Oct-2017 22:40:13 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_homepage-list.php on line 4
+[18-Oct-2017 23:31:56 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/treefield_treefield.php on line 4
+[19-Oct-2017 00:09:46 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_homepage-custom.php on line 4
+[19-Oct-2017 00:21:07 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_homepage-filters.php on line 4
+[19-Oct-2017 01:02:44 America/Chicago] PHP Fatal error:  Call to undefined function get_instance() in /home/murgamandi/public_html/templates/boomerang/page_homepage-treefield.php on line 2
+[19-Oct-2017 01:21:39 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/custom_listing_template.php on line 4
+[19-Oct-2017 02:07:03 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_homepage-wideslider.php on line 4
+[19-Oct-2017 02:14:37 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_homepage-classified.php on line 5
+[19-Oct-2017 02:18:24 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_homepage-classified2.php on line 4
+[19-Oct-2017 02:29:45 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/page_basic-category-listing.php on line 4
+[28-Oct-2017 00:56:54 America/Chicago] PHP Fatal error:  Call to undefined function _widget() in /home/murgamandi/public_html/templates/boomerang/full_view.php on line 4
